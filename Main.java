@@ -1,13 +1,12 @@
-// YOUR NAME: 
+// YOUR NAME: Christian Thorn  
 // COLLABORATORS: 
-// DATE: 
+// DATE: 10/3/24
 
 public class Main
 {
-    public static void main(String[] args)
-    {
-        //ascii art credit: http://www.oocities.org/spunk1111/bodypart.htm
-        final String ASCII_ART_0 = "    .----.    .----.  ",
+
+         //ascii art credit: http://www.oocities.org/spunk1111/bodypart.htm
+        final static String ASCII_ART_0 = "    .----.    .----.  ",
                 ASCII_ART_1 = "   (  --  \\  /  --  )",
                 ASCII_ART_2 = "          |  |        ",
                 ASCII_ART_3 = "         _/  \\_      ",
@@ -19,15 +18,20 @@ public class Main
                 ASCII_ART_9 = "         `\"\"\"\"\"` ",
                 ASCII_CREDIT = "   ascii art by: jgs    ";
 
-        final String TITLE_USA = "UNITED STATES OF AMERICA",
+        final static String TITLE_USA = "UNITED STATES OF AMERICA",
                 TITLE_EAC = "EMPLOYMENT AUTHORIZATION CARD";
-        final String LABEL_SURNAME = "Surname", LABEL_GIVEN_NAME = "Given Name", LABEL_USCIS_NUM = "USCIS#",
+        final static String LABEL_SURNAME = "Surname", LABEL_GIVEN_NAME = "Given Name", LABEL_USCIS_NUM = "USCIS#",
                 LABEL_CATEGORY = "Category", LABEL_CARD_NUM = "Card#", LABEL_BIRTH_COUNTRY = "Country of Birth",
                 LABEL_TERMS_CONDITIONS = "Terms and Conditions", LABEL_BIRTH_DATE = "Date of Birth",
                 LABEL_SEX = "Sex", LABEL_VALID_DATE = "Valid From:", LABEL_EXPIRE_DATE = "Card Expires:",
                 LABEL_REENTRY_DISCLAIMER = "NOT VALID FOR REENTRY TO U.S.";
+    public static void main(String[] args)
+    {
+       
+        
 
         //DECLARATION SECTION
+        
         //complete fields
         String surname, givenName, category, cardNum, birthCountry, termsAndConditions;
         char sex;
